@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "788960959653",
+    "firebase_url": "https://modeoftheday-316d3.firebaseio.com",
+    "project_id": "modeoftheday-316d3",
+    "storage_bucket": "modeoftheday-316d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788960959653:android:4c7a3e31423b8f8b",
+        "android_client_info": {
+          "package_name": "com.example.developer.proje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788960959653-hiukjn34sbiu25d6vncrv8eajop1149c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtylk6dnlEy9VcjzQpclkX4xBI4xVfdHQ"
+        },
+        {
+          "current_key": "AIzaSyA4NfnY5AMgIyuKObPUl-S3ic3HZEwR04Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788960959653:android:bd39332c2de040b1",
+        "android_client_info": {
+          "package_name": "gelecegiyazankadinlar.modeoftheday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788960959653-thh6nptel68n70dmo4612rs36ds57fvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gelecegiyazankadinlar.modeoftheday",
+            "certificate_hash": "2300234a7d9fdce07ec9fa6b72e458f738a1ab56"
+          }
+        },
+        {
+          "client_id": "788960959653-hiukjn34sbiu25d6vncrv8eajop1149c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtylk6dnlEy9VcjzQpclkX4xBI4xVfdHQ"
+        },
+        {
+          "current_key": "AIzaSyA4NfnY5AMgIyuKObPUl-S3ic3HZEwR04Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788960959653-hiukjn34sbiu25d6vncrv8eajop1149c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
