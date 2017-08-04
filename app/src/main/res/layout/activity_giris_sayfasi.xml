@@ -51,8 +51,8 @@
         android:layout_centerHorizontal="true"
         android:text="veya" />
 
-    <TextView
-        android:id="@+id/kaydol"
+    <Button
+        android:id="@+id/kaydolSayfasi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/textView12"

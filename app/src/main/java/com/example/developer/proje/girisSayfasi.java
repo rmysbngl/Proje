@@ -36,11 +36,25 @@ public class girisSayfasi extends AppCompatActivity {
     FirebaseAuth.AuthStateListener mAuthListener;
     EditText sifre, kullaniciAdi;
     TextView sifremiunuttum;
+    Button kaydol;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_giris_sayfasi);
+
+
+        kaydol=(Button) findViewById(R.id.kaydolSayfasi);
+        kaydol.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(girisSayfasi.this, Kaydol.class);
+                startActivity(intent);
+            }
+        });
+
+
+
         mAuth = FirebaseAuth.getInstance();// getInstance() metoduyla da bu sınıfın referans olduğu nesneleri kullanabilmekteyiz.
         mAuthListener = new FirebaseAuth.AuthStateListener() {//login olup olmadığımızı sürekli dinleyecek
             @Override

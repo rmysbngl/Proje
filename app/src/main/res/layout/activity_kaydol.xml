@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.developer.proje.Kaydol">
+
+
+    <TextView
+        android:id="@+id/Isım"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="İsim: "
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/EmailEdit"
+        android:layout_toStartOf="@+id/EmailEdit"
+        android:layout_marginTop="14dp" />
+
+    <EditText
+        android:id="@+id/IsımEdit"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:layout_above="@+id/email"
+        android:layout_alignLeft="@+id/EmailEdit"
+        android:layout_alignStart="@+id/EmailEdit" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="67dp"
+        android:text="Email"
+        android:layout_below="@+id/Isım"
+        android:layout_alignLeft="@+id/Password"
+        android:layout_alignStart="@+id/Password" />
+
+    <EditText
+        android:id="@+id/EmailEdit"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_above="@+id/Password"
+        android:layout_toRightOf="@+id/email"
+        android:layout_toEndOf="@+id/email" />
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Password"
+        android:layout_below="@+id/email"
+        android:layout_alignLeft="@+id/ConfirmPassword"
+        android:layout_alignStart="@+id/ConfirmPassword" />
+
+    <EditText
+        android:id="@+id/PasswordEdit"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/Password"
+        android:layout_alignLeft="@+id/EmailEdit"
+        android:layout_alignStart="@+id/EmailEdit" />
+
+    <TextView
+        android:id="@+id/ConfirmPassword"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Confirm Password"
+        android:layout_alignTop="@+id/ConfirmPasswordEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <EditText
+        android:id="@+id/ConfirmPasswordEdit"
+        android:layout_width="200dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/PasswordEdit"
+        android:layout_alignLeft="@+id/PasswordEdit"
+        android:layout_alignStart="@+id/PasswordEdit" />
+
+    <TextView
+        android:id="@+id/Sehir"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Sehir"
+        android:layout_alignTop="@+id/SehirEdit"
+        android:layout_alignLeft="@+id/ConfirmPassword"
+        android:layout_alignStart="@+id/ConfirmPassword" />
+
+    <EditText
+        android:id="@+id/SehirEdit"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/ConfirmPasswordEdit"
+        android:layout_alignLeft="@+id/ConfirmPasswordEdit"
+        android:layout_alignStart="@+id/ConfirmPasswordEdit" />
+
+    <TextView
+        android:id="@+id/Doğum"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Doğum"
+        android:layout_alignTop="@+id/DoğumTarihi"
+        android:layout_alignLeft="@+id/Sehir"
+        android:layout_alignStart="@+id/Sehir" />
+
+    <EditText
+        android:id="@+id/DoğumTarihi"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="date"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/SehirEdit"
+        android:layout_alignLeft="@+id/SehirEdit"
+        android:layout_alignStart="@+id/SehirEdit" />
+
+    <TextView
+        android:id="@+id/Cinsiyet"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Cinsiyet"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/Doğum"
+        android:layout_alignLeft="@+id/Doğum"
+        android:layout_alignStart="@+id/Doğum" />
+
+
+
+    <Button
+        android:id="@+id/Onayla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp" />
+
+    <TextView
+        android:id="@+id/KullanıcıAdı"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Kullanıcı  Adı"
+        android:layout_alignBaseline="@+id/KullanıcıAdıEdit"
+        android:layout_alignBottom="@+id/KullanıcıAdıEdit"
+        android:layout_toLeftOf="@+id/EmailEdit"
+        android:layout_toStartOf="@+id/EmailEdit" />
+
+    <EditText
+        android:id="@+id/KullanıcıAdıEdit"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/IsımEdit"
+        android:layout_alignLeft="@+id/IsımEdit"
+        android:layout_alignStart="@+id/IsımEdit" />
+
+    <CheckBox
+        android:id="@+id/Kız"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kız"
+        android:layout_alignBaseline="@+id/Cinsiyet"
+        android:layout_alignBottom="@+id/Cinsiyet"
+        android:layout_centerHorizontal="true"
+        android:onClick="onCheckBoxButtonClicked"
+   />
+
+    <CheckBox
+        android:id="@+id/Erkek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Erkek"
+        android:layout_alignBaseline="@+id/Kız"
+        android:layout_alignBottom="@+id/Kız"
+        android:layout_alignRight="@+id/DoğumTarihi"
+        android:layout_alignEnd="@+id/DoğumTarihi"
+        android:layout_marginRight="41dp"
+        android:layout_marginEnd="41dp"
+        android:onClick="onCheckBoxButtonClicked"
+     />
+
+
+</RelativeLayout>
